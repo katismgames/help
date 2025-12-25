@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Katism Games</title>
+    <title>Katism Games | 고객 지원</title>
 
     <style>
         :root {
@@ -38,16 +38,12 @@
         }
 
         .container {
-            max-width: 960px;
+            max-width: 720px;
             margin: 0 auto;
-            padding: 32px 16px 64px;
+            padding: 40px 16px 64px;
         }
 
         header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
             margin-bottom: 32px;
         }
 
@@ -56,81 +52,26 @@
             font-weight: 700;
         }
 
-        .nav a {
-            margin-left: 16px;
-            font-size: 14px;
-            color: var(--muted);
-        }
-
-        .hero {
-            background: linear-gradient(180deg, #161b22, #0d1117);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 28px;
-            margin-bottom: 32px;
-        }
-
-        .hero h1 {
-            font-size: 24px;
-            margin-bottom: 8px;
-        }
-
-        .hero p {
-            color: var(--muted);
-            font-size: 15px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 24px;
-        }
-
-        @media (max-width: 720px) {
-            .grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
         .card {
             background-color: var(--card);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 20px;
+            padding: 24px;
         }
 
-        .card h2 {
-            font-size: 18px;
+        .card h1 {
+            font-size: 22px;
             margin-bottom: 12px;
         }
 
-        .game {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #0d1117;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 12px 14px;
-            margin-bottom: 10px;
-        }
-
-        .game span {
-            font-size: 14px;
-        }
-
-        .btn {
-            padding: 6px 12px;
-            border-radius: 6px;
-            border: 1px solid var(--border);
-            background-color: #21262d;
-            color: var(--text);
-            font-size: 13px;
-            cursor: default;
+        .card p {
+            font-size: 15px;
+            color: var(--muted);
+            margin-bottom: 12px;
         }
 
         footer {
-            margin-top: 48px;
+            margin-top: 40px;
             text-align: center;
             font-size: 13px;
             color: var(--muted);
@@ -143,50 +84,26 @@
 
     <header>
         <div class="brand">Katism Games</div>
-        <nav class="nav">
-            <a href="/privacy.html">Privacy Policy</a>
-            <a href="/terms.html">Terms of Use</a>
-            <a href="/account-deletion.html">Account Deletion</a>
-        </nav>
     </header>
 
-    <section class="hero">
-        <h1>Mobile game studio — official links & support</h1>
+    <section class="card">
+        <h1>고객 지원 / 문의 안내</h1>
+
         <p>
-            This page provides official information for Katism Games mobile titles,
-            including legal documents, customer support, and platform links.
-            <br />
-            Technical files for advertising verification (app-ads.txt) are maintained at the domain root.
+            Katism Games의 모바일 게임과 관련된 문의, 버그 제보,
+            계정 또는 결제 관련 요청이 있으신 경우 아래 이메일로 연락해 주세요.
         </p>
-    </section>
 
-    <section class="grid">
-        <div class="card">
-            <h2>Games</h2>
+        <p>
+            고객 문의는 스토어에 등록된 개발자 연락처를 기준으로 처리됩니다.
+        </p>
 
-            <div class="game">
-                <span>Random Hero Idle RPG (Android)</span>
-                <div class="btn">Open</div>
-            </div>
-
-            <div class="game">
-                <span>Random Hero Idle RPG (iOS)</span>
-                <div class="btn">Open</div>
-            </div>
-        </div>
-
-        <div class="card">
-            <h2>Support</h2>
-            <p>
-                For questions, bug reports, or account-related requests,
-                please contact us using the email below.
-            </p>
-            <p style="margin-top: 12px;">
-                📧 <a href="mailto:katismgames.help@gmail.com">
-                    katismgames.help@gmail.com
-                </a>
-            </p>
-        </div>
+        <p style="margin-top: 16px;">
+            📧 문의 이메일 :
+            <a href="mailto:katismgames.help@gmail.com">
+                katismgames.help@gmail.com
+            </a>
+        </p>
     </section>
 
     <footer>
